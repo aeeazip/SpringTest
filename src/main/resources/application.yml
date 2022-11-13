@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  
+spring:
+  application:
+    name: demo
+    
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/mydb?serverTimezone=UTC&characterEncoding=UTF-8
+    username: root
+    password: codnjs08!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      platform: mysql
+  
+ 
